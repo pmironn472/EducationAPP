@@ -12,7 +12,7 @@ public class Master extends Student {
 
     public void setLevel(byte level) {
         if (level >= 1 && level <= 3) {
-            this.level = level;
+            super.setLevel(level);
         } else {
             System.err.println("Error");
         }

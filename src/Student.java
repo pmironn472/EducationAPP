@@ -1,3 +1,5 @@
+import java.util.logging.Level;
+
 public class Student extends Pupil {
     String university_name;
     String speciality;
@@ -27,7 +29,7 @@ public class Student extends Pupil {
 
     public void setLevel(byte level) {
         if (level >= 1 && level <= 7) {
-            this.level = level;
+            super.setLevel(level);
         } else {
             System.err.println("Error");
         }

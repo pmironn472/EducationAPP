@@ -27,7 +27,7 @@ public class Pupil extends Educated {
 
     public void setLevel(byte level) {
         if (level >= 1 && level <= 12) {
-            this.level = level;
+            super.setLevel(level);
         } else {
             System.err.println("Error");
         }
