@@ -18,12 +18,5 @@ public class Master extends Student {
         }
     }
 
-    public void printInfo() {
-        System.out.println("> fullname: " + getFullname() + " (" + getAge() + " years)");
-        System.out.println("> class: " + getLevel());
-        System.out.println("> grade: " + getAverage_grade());
-        System.out.println("> University-name: " + getUniversity_name());
-        System.out.println("> Speciality: " + getSpeciality());
 
-    }
 }
